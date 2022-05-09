@@ -1,5 +1,6 @@
 import Stories from "./Stories";
 import Posts from "./Posts";
+import Sidebar from "./Sidebar";
 
 
 export default function Content () {
@@ -8,6 +9,9 @@ export default function Content () {
             <div class="esquerda">
                 <Stories />
                 <Posts />
+            </div>
+            <div class="sidebar">
+                <Sidebar />
             </div>
         </div>
     )
